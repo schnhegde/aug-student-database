@@ -17,5 +17,9 @@ namespace StudentDatabase
 
         [Required]
         public int ClassNumber { get; set;}
+
+        [Required]
+
+        public string Section { get; set; } = "NA";
     }
 }
