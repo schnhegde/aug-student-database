@@ -20,6 +20,6 @@ namespace StudentDatabase
 
         [Required]
 
-        public int YearOfEnrollment { get; set; } = 2020;
+        public string Section { get; set; } = "NA";
     }
 }
